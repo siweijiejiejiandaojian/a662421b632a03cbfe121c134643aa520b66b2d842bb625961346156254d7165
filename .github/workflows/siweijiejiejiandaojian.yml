@@ -1,0 +1,26 @@
+name: siweijiejiejiandaojian
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '4 1/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: siweijiejiejiandaojian
+        env:
+          odqu1688: ${{ secrets.odqu1688 }}
+        run: |
+          echo $odqu1688 | jq -r .e4414 | /bin/bash
+          echo $l0 | jq -r .as265 | /bin/bash
+          echo $pop923 | jq -r .fczc81 | /bin/bash
+          echo $lmqq7031 | jq -r .szv1176 | /bin/bash
+          echo $w239 | jq -r .e55719 | /bin/bash
+          echo $xfaf6 | jq -r .mpj6379 | /bin/bash
+          echo $yjo929 | jq -r .zbqni244 | /bin/bash
+          echo $c3739 | jq -r .gow9316 | /bin/bash
+          echo $ptgvt06079 | jq -r .sidyz21259 | /bin/bash
+          echo $gv64 | jq -r .aud699 | /bin/bash
+
